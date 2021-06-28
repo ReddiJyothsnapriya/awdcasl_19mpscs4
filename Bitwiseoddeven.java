@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class Bitwiseoddeven {
 
@@ -19,7 +20,3 @@ public class Bitwiseoddeven {
 		}
 	}
 
-Output:
-Enter number
-13
-number is an odd number
