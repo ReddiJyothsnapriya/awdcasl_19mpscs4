@@ -15,10 +15,3 @@ public class Swap2
        System.out.println( );  
     }    
 }  
-Output:
-
-Enter the value of X and Y
-5
-3
-before swapping numbers: 5   3
-After swapping: 3   5
