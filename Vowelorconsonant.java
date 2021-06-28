@@ -18,13 +18,6 @@ System.out.println("Given character is a consonant");
 }
 
 
-output:
-enter a character:
-e
-Given character is an vowel
-enter a character:
-d
-Given character is a consonant
 
 
 
