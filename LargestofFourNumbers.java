@@ -49,13 +49,3 @@ public class LargestOfFourNumbers
    }
 }
 
-
-
-Output:
-
-Please enter first number: 10
-Please enter second number: 40
-Please enter third number: 80
-Please enter fourth number: 50
-Largest of four numbers is: 80
-
