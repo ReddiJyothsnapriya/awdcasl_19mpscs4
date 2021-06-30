@@ -25,3 +25,12 @@ System.out.print(res);
 
 }
 }
+
+
+
+
+Input:
+n=2342758
+x=2
+y=5
+Output:5345758
