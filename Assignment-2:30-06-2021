@@ -20,3 +20,14 @@ else
 System.out.print("Not Harshad Number");
 }
 }
+
+
+
+Input:
+n=21
+Output:
+Hrshad Number
+Input:
+n=22
+Output:
+Not Harshad Number
