@@ -12,3 +12,11 @@ public:
         return(p-s);
     }
 };
+
+
+
+
+
+Input:
+n=234
+Output:15
