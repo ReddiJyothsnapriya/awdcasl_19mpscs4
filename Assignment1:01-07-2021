@@ -1,5 +1,5 @@
 import java.util.*;
-public class Patterns1
+public class Solution1
 {
 public static void main(String args[])
 {
