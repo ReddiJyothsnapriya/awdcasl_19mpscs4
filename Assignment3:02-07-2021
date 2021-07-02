@@ -1,0 +1,24 @@
+import java.math.*;
+import com.google.common.math.BigIntegerMath;
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Solution
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{	
+	    Scanner sc=new Scanner(System.in);
+		int K=sc.nextInt();
+		while(K!=0)
+		{ 
+		   int n=sc.nextInt();
+		   System.out.println(fact(n));
+                    K--;
+		}
+	}
+  public static BigInteger fact(int n) {
+    return BigIntegerMath.factorial(n);
+
+ }
+}
