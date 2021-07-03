@@ -1,0 +1,39 @@
+import java.util.*;
+class Solution
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+int s=n*n;
+if(s<=99)
+{
+int p=s%10;
+if(p==n)
+System.out.print("Automorphic as " + n + "*" + n + "=" + s);
+else
+System.out.print("not Automorphic as " + n + "*" + n + "=" + s);
+}
+if(s>=100)
+{
+int p=s%100;
+if(p==n)
+System.out.print("Automorphic as " + n + "*" + n + "=" + s);
+else
+System.out.print("not Automorphic as " + n + "*" + n + "=" + s);
+}
+}
+}
+
+Input:
+n=76
+Output:
+Automorphic as 76*76=5776
+Input:
+n=25
+Output:
+Automorphic as 25*25=625
+Input:
+n=7
+Output:
+not Automorphic as 7*7=49
