@@ -1,0 +1,31 @@
+import java.util.*;
+class Solution
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.print("enter array size :");
+int size,i;
+size=sc.nextInt();
+int a[];
+a=new int[size];
+System.out.print("enter array elements :");
+for(i=0;i<size;i++)
+{
+a[i]=sc.nextInt();
+}
+for(i=0;i<size;i++) 
+{  
+for(int j=i+1;j<size; j++) 
+{  
+if(a[i]==a[j])
+System.out.print(a[j]+" ");
+}
+}
+}
+}
+
+Output:
+enter array size :8
+enter array elements :2 6 8 9 6 4 2 10
+2 6
