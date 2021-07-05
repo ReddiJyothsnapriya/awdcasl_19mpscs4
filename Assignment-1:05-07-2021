@@ -20,11 +20,3 @@ System.out.println("minimum element is:" +a[0]);
 }
  
 
-Output:
-enter array size:5
-enter array elements:10
-58
-47
-69
-33
-minimum element is:10
