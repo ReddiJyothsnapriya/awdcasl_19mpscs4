@@ -20,7 +20,7 @@ public class Solution {
       return min;
    }
    public static void main(String args[]) {
-      int[] arr = {50,60,84,72,56};
+      int[] arr = {50,70,80,40,30};
       Solution obj = new Solution();
       System.out.println("maximum value in the array is:"+obj.max(arr));
       System.out.println("minimum value in the array is:"+obj.min(arr));
