@@ -1,0 +1,28 @@
+import java.util.*;
+class stringsplitcount 
+{
+public static void main(String args[])
+{
+String str;
+int i,m,count=0;
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter string data:");
+str=sc.nextLine();
+String ch[]=str.split(" ");
+int n=ch.length;
+if(n==0)
+System.out.print(n);
+else
+{
+for(i=0;i<n;i++)
+{
+String st=ch[i];
+m=st.length();
+System.out.print(m+" ");
+count=count+m;
+}
+}
+System.out.println();
+System.out.print("Length of the entire string without spaces is : "+count);
+}
+}
