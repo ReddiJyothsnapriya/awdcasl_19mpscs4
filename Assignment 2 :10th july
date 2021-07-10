@@ -1,0 +1,23 @@
+import java.util.*;
+class evenoddinstring
+{
+public static void main(String args[])
+{
+String st;
+int i;
+Scanner sc=new Scanner(System.in);
+st=sc.next();
+char ch[]=st.toCharArray();
+for(i=0;i<=ch.length-1;i++)
+{
+if(ch[i]%2!=0)
+System.out.print(st.charAt(i));
+}
+System.out.print("  ");
+for(i=0;i<=ch.length-1;i++)
+{
+if(ch[i]%2==0)
+System.out.print(st.charAt(i));
+}
+}
+}
