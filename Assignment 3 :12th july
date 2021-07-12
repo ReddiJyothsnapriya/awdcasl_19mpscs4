@@ -1,0 +1,21 @@
+import java.util.*;
+class replacestring
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter String : ");
+String str=sc.nextLine();
+System.out.print("Enter inserting string : ");
+String ins=sc.next();
+System.out.print("Enter position to insert : ");
+int p=sc.nextInt();
+String split[]=str.split(" ");
+for(int i=0;i<split.length;i++)
+{
+StringBuffer sb=new StringBuffer(split[i]);
+sb.insert(p-1,ins);
+System.out.print(sb.toString()+" ");
+}
+}
+}
