@@ -1,0 +1,37 @@
+import java.util.*;
+import java.lang.String;
+class stringfrequency
+{
+public static void main(String args[])
+{
+HashMap<String,Integer> x=new HashMap<String,Integer>();
+HashMap<String,Integer> y=new HashMap<String,Integer>();
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter array Size: "); 
+int n=sc.nextInt();
+String[] s= new String[n];
+System.out.println("Enter names: ");
+for(int i=0;i<n;i++)
+{
+s[i]=sc.next();
+}
+for(int i=0;i<s.length;i++) 
+{
+String key;
+key=s[i];
+if(x.containsKey(key)) 
+x.put(key,x.get(key)+1); 
+else 
+x.put(key,1);
+} 
+for(int i=0;i<s.length;i++) 
+{
+String key;
+key=s[i];
+if(x.get(key)>2)
+y.put(key,x.get(key));
+}
+for (Map.Entry<String,Integer> entry : y.entrySet())
+System.out.println( entry.getKey() +"=" + entry.getValue());       
+}
+}
