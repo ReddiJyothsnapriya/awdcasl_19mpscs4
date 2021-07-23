@@ -1,0 +1,41 @@
+import java.util.*; 
+class mapcount
+{
+public static void main(String args[])
+{ 
+HashMap<Integer,Integer> x=new HashMap<Integer,Integer>();
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter array Size: "); 
+int n=sc.nextInt();
+int[] arr= new int[n];
+System.out.print("Enter array elements: ");
+for(int i=0;i<n;i++)
+{
+arr[i]=sc.nextInt();
+}
+int count=0;
+for(int i=0;i<arr.length;i++) 
+{
+int key;
+key=arr[i];
+if(key%5==0)
+{
+count=count+1;
+}
+}
+x.put(5,count);
+int count1=0;
+for(int i=0;i<arr.length;i++) 
+{
+int key;
+key=arr[i];
+if(key%3==0)
+{
+count1=count1+1;
+}
+}
+x.put(3,count1);
+for (Map.Entry<Integer,Integer> entry : x.entrySet())
+System.out.println( entry.getKey() +"=" + entry.getValue());   
+}
+}
